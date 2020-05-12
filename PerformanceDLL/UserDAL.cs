@@ -30,7 +30,7 @@ namespace PerformanceDAL
         {
             int UsersAdded = 0;
             SqlCommand cmd = CreateCommand();
-            cmd.CommandText = "";
+            cmd.CommandText = "test";
         }
 
     }
